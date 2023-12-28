@@ -1,0 +1,47 @@
+/* div.dataTables_wrapper div.dataTables_length select {
+    width: 75px !important;
+}
+
+div.dataTables_wrapper div.dataTables_filter {
+    display: none !important;
+} */
+
+.grey-box {
+    background-color: #b6b6b6;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.form-control.error {
+    width: 100%;
+}
+
+.front-img-box {
+    height: 100vh;
+    background: #fff;
+    min-height: 350px;
+    background-image: url(../img/brick.png);
+    background-size: cover;
+}
+
+.front-log-box {
+    height: 100vh;
+    background: #fff;
+    min-height: 350px;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .front-log-box,
+    .front-img-box {
+        height: 350px;
+    }
+}
+
+.grad {
+    background: rgb(227, 230, 240);
+    background: -moz-linear-gradient(180deg, rgba(227, 230, 240, 1) 0%, rgba(171, 171, 171, 1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(227, 230, 240, 1) 0%, rgba(171, 171, 171, 1) 100%);
+    background: linear-gradient(180deg, rgba(227, 230, 240, 1) 0%, rgba(171, 171, 171, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e3e6f0", endColorstr="#ababab", GradientType=1);
+}
